@@ -107,7 +107,7 @@ const NavContainer = styled.nav`
         margin-left: auto;
         margin-right: auto;
         top: 40%;
-        left: 0;
+        left: -25%;
         right: 0;
         text-align: center;
     }
@@ -115,7 +115,7 @@ const NavContainer = styled.nav`
 
 const BgNav = styled.div`
     position: absolute;
-    background-color: #201d28;
+    background-color: #201d28ea;
     top: -1000px;
     left: -1000px;
     width: 100%;
@@ -123,10 +123,10 @@ const BgNav = styled.div`
     z-index: 2;
     transition: all .6s ease;
     &.active {
-        border-radius: 0 0 70% 0;
+       // border-radius: 0 0 70% 0;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 70%;
         height: 100%;
     }
 `

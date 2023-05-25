@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
+
 const Greeting = () => {
     return (
         <div>
             <Hello>
-                <h1>Hello there I'm Adriel Vazquez, <span>Frontend Developer</span> </h1>
+                <h1>Hello there I'm Adriel Vazquez <span>Frontend Developer</span> </h1>
                 <p>My focus is on continuous learning and growth in the field of web development.
                     I work with technologies like React and  I'd like to take up new challenges while expanding my skill set. <br />
 

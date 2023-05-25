@@ -6,6 +6,8 @@ import Button from '../button/Button'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
+
+    
     return (
 
         <div>

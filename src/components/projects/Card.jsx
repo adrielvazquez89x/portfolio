@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faHtml5 } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { Link } from 'react-router-dom';
 import Button from '../button/Button';
 import styled from '@emotion/styled';

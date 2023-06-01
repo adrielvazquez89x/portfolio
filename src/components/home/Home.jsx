@@ -4,28 +4,45 @@ import profile from '../../img/profile.png'
 import Icons from './Icons'
 import Button from '../button/Button'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 
 const Home = () => {
 
-    
+    const slideVariants = {
+        hidden: { x: '100%' },
+        visible: { x: 0, opacity: 1, transition: { duration: .3, ease: 'easeOut' } }
+    };
+
+
     return (
 
-        <div>
+        <motion.div
+            initial={'hidden'}
+            animate={'visible'}
+            variants={slideVariants}
+        >
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-8'>
                 <div className='flex flex-col items-center gap-10'>
                     <Greeting />
-                    <Link to={'/contact'}>
-                        <Button text='Contact me' />
-                    </Link>
+                    <div className='flex gap-10'>
+                        <Link to={'/contact'}>
+                            <Button text='Contact me' />
+                        </Link>
+                        <Link>
+                            <Button text='Download my CV' />
+                        </Link>
+                    </div>
+
+
                     <Icons />
                 </div>
 
-                <div className='m-auto'>
+                <div className='m-auto mb-10'>
                     <img src={profile} alt="" />
                 </div>
 
             </div>
-        </div>
+        </motion.div>
     )
 }
 

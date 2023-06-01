@@ -5,17 +5,20 @@
 @tailwind utilities;
 
 :root {
-    --main-color1: #f6002d ;
+    --main-color1: #f6002d;
     --main-color2: #ff6200;
 }
 
 body {
     background-color: #1E1E2E;
     font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+
+
 }
 
 .main-color1 {
-    color: #f6002d ;
+    color: #f6002d;
 }
 
 .main-color2 {

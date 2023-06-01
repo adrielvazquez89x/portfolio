@@ -51,8 +51,11 @@ const NavContainer = styled.nav`
         margin-right: 2rem;
         position: relative;
         z-index: 3;
+        &:hover {
+            color: ${props => props.theme.mainColor2};
+        }
         &.active {
-            color: #f6002d;
+            color: ${props => props.theme.mainColor1};
             &::before {
                 content: '';
                 position: absolute;
@@ -62,7 +65,7 @@ const NavContainer = styled.nav`
                 width: 8px;
                 height: 8px;
                 border-radius: 50%;
-                background-color: #f6002d; 
+                background-color: ${props => props.theme.mainColor1}; 
             }
         }
     }

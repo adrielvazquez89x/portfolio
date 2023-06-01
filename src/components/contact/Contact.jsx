@@ -8,7 +8,8 @@ import styled from '@emotion/styled';
 import { motion } from 'framer-motion'
 
 const ContactForm = () => {
-    const [state, handleSubmit] = useForm('mbjeekjv');
+
+    const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMKEY);
 
     if (state.succeeded) {
         return <SuccessMessage>Thanks for your message!</SuccessMessage>;

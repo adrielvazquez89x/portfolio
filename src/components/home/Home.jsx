@@ -1,6 +1,6 @@
 import React from 'react'
 import Greeting from './Greeting'
-import profile from '../../img/profile.png'
+import profile from '../../img/profile.jpg'
 import Icons from './Icons'
 import Button from '../button/Button'
 import { Link } from 'react-router-dom'

@@ -38,7 +38,7 @@ const Home = () => {
                     <Icons />
                 </div>
 
-                <div className='m-auto mb-10'>
+                <div className='flex justify-center m-auto'>
                     <img src={profile} alt="profile" className='img-home ' />
                 </div>
 

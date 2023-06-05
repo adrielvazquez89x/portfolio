@@ -26,5 +26,5 @@ body {
 }
 
 .img-home {
-    width: 70%;
+    max-width: 80%;
 }

@@ -5,6 +5,7 @@ import Icons from './Icons'
 import Button from '../button/Button'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import CV from '../../cv/CV - Adriel Alejandro Vazquez.pdf'
 
 const Home = () => {
 
@@ -28,7 +29,7 @@ const Home = () => {
                         <Link to={'/contact'}>
                             <Button text='Contact me' />
                         </Link>
-                        <Link>
+                        <Link to={CV} target='_blank' >
                             <Button text='Download my CV' />
                         </Link>
                     </div>

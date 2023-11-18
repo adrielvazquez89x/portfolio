@@ -7,11 +7,13 @@ const Greeting = () => {
         <div>
             <Hello>
                 <h1>Hello there I'm Adriel Vazquez <span>Frontend Developer</span> </h1>
-                <p>My focus is on continuous learning and growth in the field of web development.
-                    I work with technologies like React and  I'd like to take up new challenges while expanding my skill set. <br />
-
-                    I wish to secure a position where I can apply my knowledge and contribute to exciting projects.
-                    I'm genuinely excited about the future of web development and I eagerly embrace new opportunities and challenges.</p>
+                <p>My focus is on continuous learning and growth across various programming domains, particularly in web development where I specialize in technologies like React.
+                    Additionally, I'm expanding my expertise into backend technologies.
+                    <br /><br />
+                    Apart from web development, I'm delving into programming in general, eager to broaden my skill set and take on new challenges.
+                    <br /><br />
+                    I aspire to secure a position where I can apply my knowledge in diverse programming fields, contributing to innovative projects.
+                    I'm genuinely excited about the future of programming and web development, embracing new opportunities with enthusiasm.</p>
             </Hello>
         </div>
     )

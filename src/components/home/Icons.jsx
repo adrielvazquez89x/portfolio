@@ -1,17 +1,29 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHtml5, faCss3Alt, faSquareJs, faReact, faGithub, faSass, faBootstrap } from '@fortawesome/free-brands-svg-icons'
+import html5 from '../../img/icons/html.png'
+import css3 from '../../img/icons/css.png'
+import JS from '../../img/icons/js.png'
+import TS from '../../img/icons/ts.png'
+import react from '../../img/icons/react.png'
+import sass from '../../img/icons/sass.png'
+import cpp from '../../img/icons/cpp.png'
+import cSharp from '../../img/icons/csharp.png'
+import dotnet from '../../img/icons/dotnet.png'
+import github from '../../img/icons/github.png'
+
 
 const Icons = () => {
     return (
         <div className='flex justify-center gap-2'>
-            <FontAwesomeIcon className='main-color2 ' size='2xl' icon={faHtml5} />
-            <FontAwesomeIcon className='text-blue-600' size='2xl' icon={faCss3Alt} />
-            <FontAwesomeIcon className='text-yellow-500' size='2xl' icon={faSquareJs} />
-            <FontAwesomeIcon className='text-blue-300' size='2xl' icon={faReact} />
-            <FontAwesomeIcon className='text-pink-500' size='2xl' icon={faSass} />
-            <FontAwesomeIcon className='text-violet-700' size='2xl' icon={faBootstrap} />
-            <FontAwesomeIcon className='text-white' size='2xl' icon={faGithub} />
+            <img src={html5} className='tm' alt="" />
+            <img src={css3} className='tm' alt="" />
+            <img src={JS} className='tm' alt="" />
+            <img src={TS} className='tm' alt="" />
+            <img src={react} className='tm' alt="" />
+            <img src={sass} className='tm' alt="" />
+            <img src={cpp} className='tm' alt="" />
+            <img src={cSharp} className='tm' alt="" />
+            <img src={dotnet} className='tm' alt="" />
+            <img src={github} className='tm' alt="" />
         </div>
     )
 }

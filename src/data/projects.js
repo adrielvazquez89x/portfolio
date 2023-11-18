@@ -24,7 +24,7 @@ const projects = [
         git: "https://github.com/adrielvazquez89x/react1",
         deploy: "https://alejsxanware.vercel.app/",
         img: "https://i.ibb.co/bJc4PsL/jsx.jpg",
-        tech: "Developed with ReactJS "
+        tech: "Developed with ReactJS and Firebase "
     },
     {
         id: 4,
@@ -44,6 +44,24 @@ const projects = [
         img: "https://i.ibb.co/XtH97DQ/tools.jpg",
         tech: "Developed with ReactJS "
     },
+    {
+        id: 6,
+        name: "CLUTCH",
+        desc: "UTN Lab's computer first term proyect",
+        git: "https://github.com/adrielvazquez89x/utn_proyectoLAB1",
+        deploy: "https://www.youtube.com/watch?v=DeOknUoSRrg",
+        img: "https://i.ibb.co/gmD0r4z/Clutch.jpg",
+        tech: "Developed with C++ "
+    },
+    {
+        id: 7,
+        name: "Parciales Countdown",
+        desc: "Countdown to the exam date",
+        git: "https://github.com/adrielvazquez89x/parcialesCountdown",
+        deploy: "https://parciales-countdown.vercel.app/",
+        img: "https://i.ibb.co/wKRJw06/utn-Countdown.jpg",
+        tech: "Developed with ReactJS "
+    }
 
 ];
 

@@ -22,7 +22,7 @@ const Card = ({ name, desc, git, deploy, img, tech }) => {
                         <FontAwesomeIcon className='main-color2' size='2xl' icon={faGithub} />
                     </Link>
                     <Link to={deploy} target="_blank">
-                        <Button text='Deploy' />
+                        <Button text='Demo' />
                     </Link>
                 </IconContainer>
 
@@ -59,8 +59,8 @@ const ImageContainer = styled.div`
 `;
 
 const CardImage = styled.img` //image
-    width: 509%;
-    height: auto;
+    width: 100%;
+    height: 200px;
 `;
 
 const CardContainer = styled.div`
@@ -68,15 +68,15 @@ const CardContainer = styled.div`
     border: 1px;
     border-radius: 8px;
     overflow: hidden;
-    width:300px;
+    width: 250px;
     h3{
         color: ${props => props.theme.mainColor2};
-        font-size: 18px;
+        font-size: 16px;
         font-weight: bold;
         margin-bottom: 8px;
     }
     p {
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 10px;
     }
 `;

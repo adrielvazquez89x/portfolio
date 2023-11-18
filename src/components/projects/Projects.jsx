@@ -22,9 +22,10 @@ const Projects = () => {
             variants={slideVariants}
         >
 
-            <div className='md:max-h-screen '>
+            <div className='md:max-h-screen mb-20 pb-10 '>
                 <TitleProject>My projects</TitleProject>
-                <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+                <div className='grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-10'>
+
                     {sites.map((site) => (<Card key={site.id} {...site} />))}
 
                 </div>

@@ -6,7 +6,7 @@ const Greeting = () => {
     return (
         <div>
             <Hello>
-                <h1>Hello there I'm Adriel Vazquez <span>Frontend Developer</span> </h1>
+                <h1>Hello there I'm Adriel Vazquez <span>Fullstack Developer</span> </h1>
                 <p>My focus is on continuous learning and growth across various programming domains, particularly in web development where I specialize in technologies like React.
                     Additionally, I'm expanding my expertise into backend technologies.
                     <br /><br />

@@ -61,6 +61,15 @@ const projects = [
         deploy: "https://parciales-countdown.vercel.app/",
         img: "https://i.ibb.co/wKRJw06/utn-Countdown.jpg",
         tech: "Developed with ReactJS "
+    },
+    {
+        id: 8,
+        name: "Catalog Administrator",
+        desc: "Windows app that manages a shop catalog",
+        git: "https://github.com/adrielvazquez89x/TPFinalNivel2_Vazquez",
+        deploy: "https://www.youtube.com/watch?v=Fkhs4JJKgnk&t=109s",
+        img: "https://i.ibb.co/9VbSDKL/catalog.jpg",
+        tech: "Developed with .NET Framework 4.8 and SQL"
     }
 
 ];

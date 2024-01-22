@@ -41,6 +41,7 @@ const TitleProject = styled.h1`
         color: /* #fff; */ ${props => props.theme.mainColor1};
         font-size: 32px;
         font-weight: bold;
+        margin-top: 5rem;
         margin-bottom: 1rem;
         padding: 2px;
         text-align: center;

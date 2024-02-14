@@ -1,4 +1,3 @@
-import React from 'react'
 import Card from './Card'
 import projects from '../../data/projects'
 import styled from '@emotion/styled'
@@ -24,7 +23,7 @@ const Projects = () => {
 
             <div className='md:max-h-screen mb-20 pb-10 '>
                 <TitleProject>My projects</TitleProject>
-                <div className='grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-10'>
+                <div className='grid sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-6 gap-8'>
 
                     {sites.map((site) => (<Card key={site.id} {...site} />))}
 

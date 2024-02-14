@@ -1,5 +1,4 @@
 import styled from '@emotion/styled'
-import React from 'react'
 import profile from '../../img/profile2.jpg'
 import { motion } from 'framer-motion'
 

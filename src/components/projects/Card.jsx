@@ -44,7 +44,7 @@ const ImageContainer = styled.div`
     &:hover { //animation in
         img {
         transform: scale(1.1);    
-        transition: transform 0.7s ease;
+        transition: transform 0.5s ease;
     }
     
     }
@@ -60,7 +60,7 @@ const ImageContainer = styled.div`
 
 const CardImage = styled.img` //image
     width: 100%;
-    height: 200px;
+    height: 150px;
 `;
 
 const CardContainer = styled.div`
@@ -68,7 +68,8 @@ const CardContainer = styled.div`
     border: 1px;
     border-radius: 8px;
     overflow: hidden;
-    width: 250px;
+    width: 200px;
+    
     h3{
         color: ${props => props.theme.mainColor2};
         font-size: 16px;
@@ -82,13 +83,18 @@ const CardContainer = styled.div`
 `;
 
 const CardContent = styled.div`
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
     background-color: #fff;
-    padding: 16px;
+    height:200px;
+    padding: 14px;
+    
 `;
 
 const IconContainer = styled.div`
         display: flex;
-        justify-content: space-between;
+        gap: 2px;
         width: 100%;
         margin-bottom: 10px;
 `;

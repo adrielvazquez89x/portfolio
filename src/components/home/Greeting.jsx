@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from '@emotion/styled'
 
 
@@ -25,8 +24,9 @@ const Hello = styled.div`
     
     h1 {
         color: /* #fff; */ ${props => props.theme.mainColor2};
-        font-size: 32px;
+        font-size: 20px;
         font-weight: bold;
+        margin-top: 5rem;
         margin-bottom: 1rem;
         padding: 2px;
 

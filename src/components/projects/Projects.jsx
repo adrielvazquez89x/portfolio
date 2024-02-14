@@ -22,7 +22,6 @@ const Projects = () => {
         >
 
             <div className='md:max-h-screen mb-20 pb-10 '>
-                <TitleProject>My projects</TitleProject>
                 <div className='grid sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-6 gap-8'>
 
                     {sites.map((site) => (<Card key={site.id} {...site} />))}
@@ -34,15 +33,3 @@ const Projects = () => {
 }
 
 export default Projects
-
-const TitleProject = styled.h1`
-
-        color: /* #fff; */ ${props => props.theme.mainColor1};
-        font-size: 32px;
-        font-weight: bold;
-        margin-top: 5rem;
-        margin-bottom: 1rem;
-        padding: 2px;
-        text-align: center;
-
-`

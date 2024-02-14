@@ -12,7 +12,7 @@ const AnimatedRoutes = () => {
 
     return (
         <AnimatePresence>
-            <div className={`md:h-screen flex flex-col justify-center items-center ${isProjectsRoute ? 'overflow-scroll' : ''}`}>
+            <div className={`sm:h-screen md:h-screen lg:h-screen flex flex-col justify-center items-center ${isProjectsRoute ? 'overflow-scroll' : ''}`}>
                 <Routes location={location} key={location.pathname}>
                     <Route path='/' element={<Home />} />
                     <Route path='/about' element={<About />} />

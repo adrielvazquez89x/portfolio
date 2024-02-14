@@ -40,13 +40,13 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 12px; /* Ajusta el tamaño de la barra */
+    width: 12px; 
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: #666; /* Cambia el color del "pulgón" de la barra */
+    background-color: #666; 
   }
   
   ::-webkit-scrollbar-track {
-    background-color: #f1f1f1; /* Cambia el color del fondo de la barra */
+    background-color: #f1f1f1; 
   }
